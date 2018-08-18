@@ -1,6 +1,6 @@
 #!/bin/bash
 apt-get update
-apt-get upgrade -y
+#apt-get upgrade -y
 apt-get install python3-pip unzip wget tmux git screen htop -y
 git config --global credential.helper "cache --timeout=36000"
 git config --global user.email "sergiy.popovich@gmail.com"
