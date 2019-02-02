@@ -4,7 +4,7 @@ apt-get install software-properties-common
 add-apt-repository ppa:jonathonf/vim -y
 apt-get update
 #apt-get upgrade -y
-apt-get install python3-pip unzip wget tmux git screen htop vim jupyter ipywidgets ping -y
+apt-get install python3-pip unzip wget tmux git screen htop vim jupyter ipywidgets iputils-ping -y
 jupyter nbextension enable --py widgetsnbextension
 git config --global credential.helper "cache --timeout=36000"
 git config --global user.email "sergiy.popovich@gmail.com"
