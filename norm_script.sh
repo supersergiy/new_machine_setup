@@ -8,3 +8,8 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 sudo chmod 777 ~/.vimrc
 echo "set number" >> ~/.vimrc
 echo "set cursorline" >> ~/.vimrc
+echo "set cursorline" >> ~/.vimrc
+
+echo '"\e[5~": history-search-backward' >> ~/.inputrc
+echo '"\e[6~": history-search-forward' >> ~/.inputrc
+
